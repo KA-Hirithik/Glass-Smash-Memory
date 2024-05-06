@@ -1,0 +1,123 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Glass Match Memory</title>
+
+      <link rel="stylesheet" href="./styles/main.css">
+    </head>
+    <body>
+      
+      <div id="wrapper">
+
+        <div id="startScreen" class="screen">
+
+          <h1 id="startHeading">
+            
+            G 
+            <div class="smallGlass">
+                <div class="glass headingGlass">
+                  <div class="inner">
+                    <div class="liquid"></div>
+                </div>
+              </div>
+            </div> 
+            ass Smash Memory
+
+          </h1>
+
+          <div id="difficultyBar">
+            <button class="button" id="easy"> Easy </button>
+            <button class="button" id="medium"> Medium </button>
+            <button class="button" id="hard"> Hard </button>
+          </div>
+
+        </div>
+
+        <div id="gameScreen" class="screen">
+
+          <div id="gamesContainer">
+            <span id="gamesBox"></span> / <span class="totalGames"></span>
+          </div>
+
+          <div id="glassContainer">
+
+            <div class="glass" id="glass1">
+              <div class="inner">
+                <div class="liquid" id="liquid1"></div>
+              </div>
+            </div>
+          
+            <div class="glass" id="glass2">
+              <div class="inner">
+                <div class="liquid" id="liquid2"></div>
+              </div>
+            </div>
+          
+            <div class="glass" id="glass3">
+              <div class="inner">
+                <div class="liquid" id="liquid3"></div>
+              </div>
+            </div>
+      
+            <div class="glass" id="glass4">
+              <div class="inner">
+                <div class="liquid" id="liquid4"></div>
+              </div>
+            </div>
+      
+            <div class="glass" id="glass5">
+              <div class="inner">
+                <div class="liquid" id="liquid5"></div>
+              </div>
+            </div>
+      
+          </div>
+
+          
+        </div>
+
+        <div id="endScreen" class="screen">
+
+          <h1 id="endHeading">  
+            
+            <div class="smallGlass">
+              <div class="glass headingGlass">
+                <div class="inner">
+                  <div class="liquid"></div>
+              </div>
+            </div>
+          </div> 
+            Game End
+            <div class="smallGlass">
+              <div class="glass headingGlass">
+                <div class="inner">
+                  <div class="liquid"></div>
+              </div>
+            </div>
+          </div> 
+          </h1>
+
+          <div id="scoreContainer">
+            <span id="scoreBox">0</span> / <span class="totalGames"></span>
+          </div>
+
+          <button class="button" id="continueBtn"> Continue </button>
+
+        </div>
+
+      </div>
+
+      <div id="warning">
+        <center>
+        <h2>
+          Please Rotate Your Device to <br>"Landscape"</br> to play the game.
+        </h2>
+      </center>
+
+      
+      <script type="module" src="./scripts/main.js" defer></script>
+
+    </body>
+    </html>
