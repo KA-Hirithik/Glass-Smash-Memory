@@ -335,7 +335,7 @@ function gameEndLogic() {
     playerSequence = [];
     clearInterval(intervalId);
     clearInterval(intervalId2); // Clear intervalId2 if it's set
-    intervalId2 = setInterval(gameEndStatement, 1000); // Set intervalId2 for game end statement
+    intervalId2 = setInterval(gameEndStatement, 1); // Set intervalId2 for game end statement
   }
 }
 
